@@ -21,11 +21,11 @@ int getNextRandomValue(void){
 
 int main(int argc, char const *argv[])
 {
-    int myarray[10];
-    populate_array(myarray, 10, getNextRandomValue);
+    int MyArray[10];
+    populate_array(MyArray, 10, getNextRandomValue);
     for (int i = 0; i < 10; i++)
     {
-        printf("%d\n", myarray[i]);
+        printf("%d\n", MyArray[i]);
     }
 
     return 0;

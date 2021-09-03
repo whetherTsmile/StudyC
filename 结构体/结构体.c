@@ -52,7 +52,7 @@ void printbooksByPoint(struct Book *book){
     printf("point book_author=%s\n", book->book_author);
 }
 
-//typedef    C 语言提供了 typedef 关键字，您可以使用它来为类型取一个新的名字  typedef struck Book {};  Book book;
+//typedef    C 语言提供了 typedef 关键字，您可以使用它来为类型取一个新的名字  typedef struct Books {~~~~} Book;  Book book;
 /*
 #define #define 是 C 指令，用于为各种数据类型定义别名，与 typedef 类似，但是它们有以下几点不同：
     typedef 仅限于为类型定义符号名称，#define 不仅可以为类型定义别名，也能为数值定义别名，比如您可以定义 1 为 ONE。
