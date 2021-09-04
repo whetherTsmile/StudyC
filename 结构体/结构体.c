@@ -5,7 +5,7 @@
 struct Book
 {
     char book_name[50];
-    char book_author[50];
+    char book_author[50];   //结构体可以使用动态内存，但是一个结构体只有最后一个成员可以使用
 };
 
 union Data
